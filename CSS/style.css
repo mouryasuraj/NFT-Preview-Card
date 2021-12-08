@@ -1,0 +1,156 @@
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            body {
+                background-color: hsl(217, 54%, 11%);
+            }
+            
+            .container {
+                border: 1px solid hsl(217, 54%, 11%);
+                height: 100vh;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .card5 {
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                width: 298px;
+                height: 298px;
+                background-color: hsl(178, 100%, 50%);
+                border-radius: 12px;
+            }
+            
+            .card5 .eye {
+                width: 50px;
+                height: 50px;
+            }
+            
+            .card5::before {
+                content: '';
+                background: url(../image/image-equilibrium.jpg) no-repeat center center/cover;
+                position: absolute;
+                border-radius: 10px;
+                width: 298px;
+                height: 298px;
+                z-index: 1;
+            }
+            
+            .card5:hover::before {
+                content: '';
+                background: url(../image/image-equilibrium.jpg) no-repeat center center/cover;
+                position: absolute;
+                border-radius: 10px;
+                width: 298px;
+                height: 298px;
+                z-index: 1;
+                opacity: 0.5;
+                cursor: pointer;
+                transition-duration: 0.3s;
+            }
+            
+            .card {
+                background-color: hsl(216, 50%, 16%);
+                border-radius: 15px;
+                border: 1px solid hsl(216, 50%, 16%);
+                padding: 20px;
+            }
+            
+            .card h3 {
+                margin: 15px 0px;
+                font-family: 'Outfit', sans-serif;
+                color: white;
+            }
+            
+            .card .p1 {
+                font-size: 18px;
+                color: rgb(134, 155, 186);
+                font-family: 'Outfit', sans-serif;
+                margin: px 0px;
+            }
+            
+            .card h3:hover {
+                cursor: pointer;
+                color: hsl(178, 100%, 50%);
+                transition-duration: 0.5s;
+            }
+            
+            .card img {
+                width: 295px;
+                border-radius: 10px;
+            }
+            
+            .card img:hover {
+                cursor: pointer;
+            }
+            
+            .card3,
+            .card4 {
+                display: flex;
+                align-items: center;
+            }
+            
+            .card1 {
+                display: flex;
+                justify-content: space-between;
+                margin: 26px 0px;
+            }
+            
+            .card3 img {
+                width: 11px;
+                height: 18px;
+            }
+            
+            .card4 img {
+                width: 17px;
+                height: 17px;
+            }
+            
+            .card3 p {
+                color: rgb(37, 255, 255);
+                font-family: 'Outfit', sans-serif;
+            }
+            
+            .card4 p {
+                color: rgb(134, 155, 186);
+                font-family: 'Outfit', sans-serif;
+            }
+            
+            hr {
+                border: 1px solid rgb(134, 155, 186);
+                color: rgb(134, 155, 186);
+                opacity: 0.2;
+            }
+            
+            .footer {
+                display: flex;
+                align-items: center;
+            }
+            
+            .footer img {
+                border: 2px solid white;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                margin: 18px 10px 0 0px;
+            }
+            
+            .footer p {
+                margin: 18px 0px 0 0px;
+            }
+            
+            .footer a {
+                color: white;
+                text-decoration: none;
+            }
+            
+            .footer a:hover {
+                color: hsl(178, 100%, 50%);
+                text-decoration: none;
+                transition-duration: 0.5s;
+            }
